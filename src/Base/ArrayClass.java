@@ -71,6 +71,7 @@ public class ArrayClass {
 
         String[] simboli = {"carta", "sasso", "forbici"};
 
+        System.out.println(simboli[rm.nextInt(3)].equals("forbici"));
 
     }
 }
