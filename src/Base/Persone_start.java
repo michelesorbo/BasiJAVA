@@ -6,6 +6,7 @@ public class Persone_start {
         Persone p2 = new Persone("Salvatore", "Amato", 24, "AMT002");
         Persone p3 = new Persone("Franco", "Rossi");
 
+        p1.dimmiNome();
         p1.getEta();
         p2.getEta();
         p3.setEta(56);

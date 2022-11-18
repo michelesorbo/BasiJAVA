@@ -30,7 +30,7 @@ public class Persone {
     }
 
     public void stampaPersona(){
-        //Stamapare tutti i dati della persona
+        System.out.println("Nome: " + nome + " Cognome: " + cognome + " Età: " + eta + " C.F.: " + cf);
     }
 
     //Incapsulamento
