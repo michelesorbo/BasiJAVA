@@ -6,10 +6,9 @@ public class ContoCorrenteStart {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner scanner = new Scanner(System.in);
-        ContoCorrente cc1 = new ContoCorrente(50000, "Vittorio Lama", "IT001");
-        ContoCorrente cc2 = new ContoCorrente(15000, "Simone Povero", "IT002");
-        ContoCorrente cc3 = new ContoCorrente(15000, "Errico Povero", "IT003");
-        int scelta, somma;
+        ContoCorrente cc1 = new ContoCorrente(50000, "Michele Sorbo", "IT001");
+        int scelta;
+        double somma;
 
 
         do {
@@ -20,12 +19,12 @@ public class ContoCorrenteStart {
 
             if(scelta == 1) {
                 System.out.println("Quanto vuoi versare?");
-                somma = scanner.nextInt();
+                somma = scanner.nextDouble();
                 cc1.versa(somma);
 
             }else if(scelta == 2) {
                 System.out.println("Quanto vuoi prelevare?");
-                somma = scanner.nextInt();
+                somma = scanner.nextDouble();
                 cc1.preleva(somma);
 
             }else if(scelta == 3) {

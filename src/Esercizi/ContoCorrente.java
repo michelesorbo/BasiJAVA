@@ -16,10 +16,10 @@ public class ContoCorrente {
         0) Esci
      */
 
-    private int saldo;
+    private double saldo;
     private String proprietario;
     private String n_conto;
-    String[] movimenti = new String[5];
+    private String[] movimenti = new String[5]; //Conservare gli ultimi 5 movimenti
     private int conta_movimenti = 0;
     //private ArrayList<String> movimenti_cc = new ArrayList<String>();
 
@@ -33,17 +33,17 @@ public class ContoCorrente {
         proprietario = nome;
     }
 
-    void versa(int somma) {
-        saldo = saldo + somma;
+    void versa(double somma) {
+        saldo += somma;
         System.out.println("Versamento effettuato.");
         this.movimentiConto("Vesato " + somma);
     }
 
-    void preleva(int somma) {
+    void preleva(double somma) {
         if(somma > saldo) {
             System.out.println("Non puoi prelevare saldo inferiore");
         }else {
-            saldo = saldo - somma;
+            saldo -= somma;
             System.out.println("Prelievo effettuato.");
             this.movimentiConto("Prelevato " + somma);
         }
@@ -61,19 +61,23 @@ public class ContoCorrente {
     }
 
     //Metodo che aggiunge i movimenti nell'array movimenti classico
-	void movimentiConto(String movimento) {
-		int i;
+	private void movimentiConto(String movimento) {
+        movimenti[conta_movimenti] = movimento;
+        conta_movimenti++;
+        System.out.println(conta_movimenti);
 
-		if(conta_movimenti > 4) {
-			for(i = 1; i < movimenti.length; i++) {
-				movimenti[i-1] = movimenti[i]; //Sposto gli elementi di un indice
-			}
-			movimenti[i-1] = movimento; //Mette il versamento nell'ultima posizione dell'array
-		}else{
-			movimenti[conta_movimenti] = movimento;
-		}
-
-		conta_movimenti++;//Incremento il contatore di movimenti
+//		int i;
+//
+//		if(conta_movimenti > 4) {
+//			for(i = 1; i < movimenti.length; i++) {
+//				movimenti[i-1] = movimenti[i]; //Sposto gli elementi di un indice
+//			}
+//			movimenti[i-1] = movimento; //Mette il versamento nell'ultima posizione dell'array
+//		}else{
+//			movimenti[conta_movimenti] = movimento;
+//		}
+//
+//		conta_movimenti++;//Incremento il contatore di movimenti
 	}
 
     //Metodo che stampa a video il contenuto dell'array movimenti
