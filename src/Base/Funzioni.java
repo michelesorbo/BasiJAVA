@@ -52,7 +52,7 @@ public class Funzioni {
     }
 
 
-    //OVERWRITE dei metodi
+    //OVERLOADED dei metodi
 
     public static int somma(int a, int b) {
         return a + b;

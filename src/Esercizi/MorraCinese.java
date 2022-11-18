@@ -17,9 +17,39 @@ public class MorraCinese {
         String scelta;
 
         System.out.println("Giochiamo alla morra cinese, scrivi Carta, Sassi o Forbici");
-        scelta = in.nextLine();
+        do{
+            System.out.println("Fai la tua Scelta: Carta - Sasso - Forbici\nFine per terminare");
+            scelta = in.nextLine();
+
+            if(scelta.toLowerCase().equals("carta") || scelta.toLowerCase().equals("sasso") || scelta.toLowerCase().equals("forbici")){
+
+                if(esito(scelta) == 0){
+                    System.out.println("Pareggio");
+                    pareggi++;
+                } else if (esito(scelta) == 1) {
+                    System.out.println("Hai vinto");
+                    vittorie++;
+                }else {
+                    System.out.println("Hai perso");
+                    sconfitte++;
+                }
+
+                giocate++; //Incremento il numero di giocate
+
+            }else if(scelta.toLowerCase().equals("fine")){
+                System.out.println("Grazie per aver giocato... alla prossima sfida");
+            }else {
+                System.out.println("Scelta non valida, ritenta");
+            }
+
+        }while (!scelta.toLowerCase().equals("fine"));
+
+
         //Vado a verificare l'esito dal metodo
-        System.out.println(esito(scelta));
+        System.out.println("Hai giocato " + giocate + " partite");
+        System.out.println("Hai vinto " + vittorie + " volte");
+        System.out.println("Hai perso  " + sconfitte + " volte");
+        System.out.println("Hai pareggiato " + pareggi + " volte");
 
     }
 
@@ -32,18 +62,19 @@ public class MorraCinese {
          */
 
         Random rm = new Random();
+        String computer = "";
 
         String[] simboli = {"carta", "sasso", "forbici"}; //Array delle scelte
         
-        String computer = simboli[rm.nextInt(3)]; //Il computer sceglia il suo simbolo
+        computer = simboli[rm.nextInt(3)]; //Il computer sceglia il suo simbolo
         System.out.println("Il computer ha giocato: " + computer);
         
         if(giocata.toLowerCase().equals(computer)){
-            return 0;
+            return 0; //Pareggio
         } else if (giocata.toLowerCase().equals("forbici") && computer.equals("carta") || giocata.toLowerCase().equals("sasso") && computer.equals("forbici") || giocata.toLowerCase().equals("carta") && computer.equals("sasso")) {
-            return 1; //Vittori
+            return 1; //Vittoria
         }else{
-            return 2;
+            return 2; //Perso
         }
     }
 }
