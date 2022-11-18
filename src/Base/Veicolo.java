@@ -37,5 +37,31 @@ public class Veicolo {
         return costo_km;
     }
 
+    public String getProprietario(){
+        return proprietario;
+    }
 
+    public void setProprietario(String proprietario) {
+        int controllo = 0;
+        for (int i = 0; i < proprietario.length(); i++) {
+            if(proprietario.charAt(i) == '0' || proprietario.charAt(i) == '1' || proprietario.charAt(i) == '2'){
+                controllo++;
+            }
+        }
+        if(controllo > 0){
+            System.out.println("Nome non valido");
+        }else {
+            this.proprietario = proprietario;
+        }
+
+    }
+
+
+    public double getKm_percorsi(){
+        return km_percorsi;
+    }
+
+    public void aggKM(double km){
+        km_percorsi += km;
+    }
 }
