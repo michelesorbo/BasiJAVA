@@ -7,8 +7,19 @@ public class ContoCorrenteStart {
         // TODO Auto-generated method stub
         Scanner scanner = new Scanner(System.in);
         ContoCorrente cc1 = new ContoCorrente(50000, "Michele Sorbo", "IT001");
+        ContoCorrente cc2 = new ContoCorrente(25000,"Mario Rossi","IT002");
+        ContoCorrente cc3 = new ContoCorrente(23000,"Giuseppe verdi", "IT003");
         int scelta;
         double somma;
+
+        cc2.setNumeroCC(25);
+
+        cc1.stampaNumeroCC();
+        cc1.stampa_saldo();
+        cc2.stampaNumeroCC();
+        cc2.stampa_saldo();
+        cc3.stampaNumeroCC();
+        cc3.stampa_saldo();
 
 
         do {
