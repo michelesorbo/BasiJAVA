@@ -1,0 +1,40 @@
+Esercizio 1:
+Creare una classe operazioni dotata di un costruttore che prende due numeri a e b e
+quattro metodi che simulano le 4 operazioni.
+metodo pow() che stampi a video la potenza di base (ossia stampa il prodotto di a*a),
+
+Esercizio 2
+Creare un metodo che ricevuti in input 3 valori restituisca il valore maggiore (cercaMax(int a, int b,int c))
+Testarlo chiedendo di insere i 3 numeri all'utente
+
+Esercizio 3
+Creare un metodo che passato un array lo restituisca pieno di numeri casuali compresi tra 1 e 200.
+Dopo aver riempito l'array crerare un metodo che restituisca il valore massimo e mino dell'array
+
+Esercizio 4
+Simulare il lancio dei dadi
+Chiedere all'utente quanti dati vuole lanciare e quante facce devo avere i dadi
+il metodo deve ricevere il numeri di dadi da lanciare e le facce dei dadi (landiDadi(int nDadi, int nFacce)
+
+Esercizio 5:
+E' necessario scrivere una applicazione che simula il funzionamento di un frammento del sistema
+informativo di un operatore di telefonia cellulare.
+
+Si devono quindi rappresentare i dati relativi ad una carta SIM ed in particolare:
+- il numero di telefono
+- il credito disponibile in euro
+- la lista delle telefonate effettuate
+
+Per ciascuna telefonata deve essere rappresentata la durata in minuti
+
+La classe SIM dovrà fornire le seguenti funzionalità:
+- un costruttore parametrizzato che crea una SIM con numero di telefono, un credito e
+la lista delle telefonate vuota
+
+- un metodo per l'inserimento di una telefonata con i dati forniti dall'utente.
+
+- una funzione per il calcolo dei minuti totali di conversazione.
+
+- una funzione per il calcolo delle telefonate effettuate verso un certo numero SE RIUSCITE
+
+- una procedura per la stampa dei dati della SIM e l'elenco delle telefonate.
