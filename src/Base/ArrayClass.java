@@ -1,6 +1,7 @@
 package Base;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class ArrayClass {
     public static void main(String[] args) {
@@ -71,6 +72,50 @@ public class ArrayClass {
         String[] simboli = {"carta", "sasso", "forbici"};
 
         System.out.println(simboli[rm.nextInt(3)].equals("forbici"));
+        RicordoMovimenti();
+    }
 
+    public static void RicordoMovimenti(){
+
+        Scanner in = new Scanner(System.in);
+        String[] ricordo = new String[5]; //Ha 3 posizioni libero
+        String testo;
+        int cont_ric = 0;
+
+        System.out.println("Ricordo le ultime 3 cose che fai, fine per teminare");
+
+        do{
+            System.out.println("Scrivi un ricordo fine per terminare");
+            testo = in.nextLine();
+
+            if(!testo.toLowerCase().equals("fine")){ //Per non ricorda il comando fine nell'array
+                if(cont_ric < 5){
+                    ricordo[cont_ric] = testo;
+                    cont_ric++;
+                    stampa(ricordo);
+                }else{
+                    /*
+                    ricordo[0] = ricordo[1];
+                    ricordo[1] = ricordo[2];
+                    ricordo[2] = testo;
+                     */
+                    int i; //Dichiaro il contatore fuori dal for per essere visibile in tutto il metodo
+                    for (i = 1; i < ricordo.length; i++) { //Sposto gli elementi di una posizione sopra
+                        ricordo[i -1] = ricordo[i];
+                    }
+                    ricordo[i - 1] = testo; //Inserisco il testo alla fine
+                    stampa(ricordo);
+                    cont_ric++; //Ricordo sempre quanti ne hai inserito
+                }
+            }
+
+
+        }while (!testo.toLowerCase().equals("fine"));
+    }
+
+    public static void stampa(String[] ar){
+        for(String el:ar){
+            System.out.println(el);
+        }
     }
 }

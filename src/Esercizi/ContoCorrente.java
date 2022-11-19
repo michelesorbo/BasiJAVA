@@ -62,22 +62,19 @@ public class ContoCorrente {
 
     //Metodo che aggiunge i movimenti nell'array movimenti classico
 	private void movimentiConto(String movimento) {
-        movimenti[conta_movimenti] = movimento;
-        conta_movimenti++;
-        System.out.println(conta_movimenti);
 
-//		int i;
-//
-//		if(conta_movimenti > 4) {
-//			for(i = 1; i < movimenti.length; i++) {
-//				movimenti[i-1] = movimenti[i]; //Sposto gli elementi di un indice
-//			}
-//			movimenti[i-1] = movimento; //Mette il versamento nell'ultima posizione dell'array
-//		}else{
-//			movimenti[conta_movimenti] = movimento;
-//		}
-//
-//		conta_movimenti++;//Incremento il contatore di movimenti
+		int i; //Per essere visibile in tutto il metodo
+
+		if(conta_movimenti > 4) {
+			for(i = 1; i < movimenti.length; i++) {
+				movimenti[i-1] = movimenti[i]; //Sposto gli elementi di un indice
+			}
+			movimenti[i-1] = movimento; //Mette il versamento nell'ultima posizione dell'array
+		}else{
+			movimenti[conta_movimenti] = movimento;
+		}
+
+		conta_movimenti++;//Incremento il contatore di movimenti
 	}
 
     //Metodo che stampa a video il contenuto dell'array movimenti
