@@ -10,7 +10,6 @@ public class ArrayClass {
         int[] ar_n2 = {3,4,5,2,5}; //Dichiarato e inizializzao un array numerico di 4. Ogni elemento va divso da una ,
         String[] ar_s = {"Ciao", "Mondo", "sono una stringa"};
         System.out.println(ar_s[2]);
-
         System.out.println("Sono l'ultimo elemento di un array " + ar_n2[ar_n2.length-1]); //Stampo ultimo elemento dell'array
 
         /*
