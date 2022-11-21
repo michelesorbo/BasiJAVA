@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd20841-fca5-40cf-9d06-c207a8d03e8b" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/Bidello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/EreditarietaStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/Segretaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/Studente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ereditarieta/StudentePrivato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Esercizi/ContoCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercizi/ContoCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Esercizi/ContoCorrenteStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercizi/ContoCorrenteStart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Progetti Java/BasiJAVA&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Progetti Java/BasiJAVA",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/File" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,7 +116,77 @@
       <option name="project" value="LOCAL" />
       <updated>1668783488905</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init">
+      <created>1668790460109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790460109</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init">
+      <created>1668848655192</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668848655192</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init">
+      <created>1668851297881</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668851297881</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1668855780609</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668855780609</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1668858810010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668858810010</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init">
+      <created>1668865311459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668865311459</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <created>1668868089979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668868089979</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <created>1668875817737</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668875817737</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init">
+      <created>1669019537510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669019537510</updated>
+    </task>
+    <task id="LOCAL-00018" summary="init">
+      <created>1669031305602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669031305602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
