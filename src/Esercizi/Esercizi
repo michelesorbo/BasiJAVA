@@ -38,3 +38,14 @@ la lista delle telefonate vuota
 - una funzione per il calcolo delle telefonate effettuate verso un certo numero SE RIUSCITE
 
 - una procedura per la stampa dei dati della SIM e l'elenco delle telefonate.
+
+Esercizio 6: (Ereditarietà)
+Realizzare le classi che permettono di modellare diverse tipologie di veicolo.
+Tutti i veicoli sono caratterizzati da:
+    - targa
+    - marca
+    - modello
+    - numero di posti
+
+Tra i veicoli ci saranno gli autocarri caratterizzati da: capacità di carico in quintali
+E ci saranno gli autoveicoli che avranno il numero di porte
