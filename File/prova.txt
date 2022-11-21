@@ -1,11 +1,11 @@
-Ciao mondo
-E ora sono io
-Sono nuovo
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
-Sono la nuova riga in append
+Sono una nuova riga
+Sono la secoda linea
+Sono nuovo e non cancello
+Sono nuovo e non cancello
+Sono nuovo e non cancello
+Sono nuovo e non cancello
+Michele Sorbo
+Sono nuovo e non cancello
+Michele Rossi
+Sono nuovo e non cancello
+Michele Verdi

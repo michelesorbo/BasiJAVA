@@ -1,9 +1,7 @@
 package Base;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 public class GestioneFile {
     public static void main(String[] args) throws IOException {
@@ -47,6 +45,26 @@ public class GestioneFile {
         }catch (IOException e){
             e.printStackTrace();
         }
+
+
+        //Vado a leggere il file e cerco un elemento
+        try {
+            FileReader reader = new FileReader(file);//Apro in sola lettura
+            Scanner FileScanner = new Scanner(reader);
+
+            while (FileScanner.hasNextLine()){
+                String data = FileScanner.nextLine();
+                if(data.contains("Michele Sorbo")){
+                    System.out.println(data);
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
 
 
 
