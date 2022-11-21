@@ -49,3 +49,25 @@ Tutti i veicoli sono caratterizzati da:
 
 Tra i veicoli ci saranno gli autocarri caratterizzati da: capacità di carico in quintali
 E ci saranno gli autoveicoli che avranno il numero di porte
+
+Esercizio 7 (Ereditarietà):
+Il gestore di un negozio associa a tutti i suoi Prodotti un codice a barre univoco,
+una descrizione sintetica del prodotto e il suo prezzo unitario.
+Realizzare una classe Prodotti con le opportune variabili d'istanza e metodi get e set.
+
+Aggiungere alla classe Prodotti un metodo applicaSconto che modifica il prezzo del
+prodotto diminuendolo dello sconto inserito come parametro (es 5%).
+
+Il gestore del negozio vuole fare una distinzione tra i prodotti Alimentari e quelli
+Non Alimentari.
+Ai prodotti Alimentari viene infatti associata una data di scadenza,
+mentre a quelli Non Alimentari il materiale principale di cui sono fatti.
+Realizzare le sottoclassi Alimentari e NonAlimentari estendendo opportunamente
+la classe Prodotti.
+
+Sovrascrivere il metodo applicaSconto per i prodotti Alimentari che applicca
+automaticamente uno sconto del 20%
+
+Realizzare una classe ListaSpesa che chieda all'utente di inserire i prodotti
+acquistati e calcoli il totale della spesa applicando gli opportuni sconti se il
+cliente ha la tessera fedeltà.
