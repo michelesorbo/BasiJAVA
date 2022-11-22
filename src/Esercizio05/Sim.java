@@ -1,10 +1,8 @@
 package Esercizio05;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDateTime;
+import java.util.Scanner;
 
 public class Sim {
     private String numero;
@@ -39,6 +37,38 @@ public class Sim {
             fw.append(dataOra + " " + numero + " " + secondi + "\n");
             fw.close();
         } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void ElencoChamate(){
+        file = this.checkFile(); //Controllo se il file esiste
+        try {
+            FileReader fr = new FileReader(file);
+            Scanner FileScanner = new Scanner(fr);
+
+            while (FileScanner.hasNextLine()){
+                String data = FileScanner.nextLine();
+                System.out.println(data);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void ElencoChamate(String numeroDaCercare){
+        file = this.checkFile(); //Controllo se il file esiste
+        try {
+            FileReader fr = new FileReader(file);
+            Scanner FileScanner = new Scanner(fr);
+
+            while (FileScanner.hasNextLine()){
+                String data = FileScanner.nextLine();
+                if(data.contains(numeroDaCercare)){
+                    System.out.println(data);
+                }
+            }
+        } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }

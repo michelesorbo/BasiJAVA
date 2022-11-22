@@ -11,7 +11,8 @@ public class Start {
 
         do{
             System.out.println("Gestione della SIM: " + s1.getNumero());
-            System.out.println("1) Dati SIM\n2) Inserisci telefonata\n0) Termina programma");
+            System.out.println("1) Dati SIM\n2) Inserisci telefonata\n3) Elenco chiamate");
+            System.out.println("4) Cerca un numero \n0) Termina programma");
             scelta = in.nextInt();
             in.nextLine(); //PER Correzione BUG
 
@@ -23,6 +24,16 @@ public class Start {
                 System.out.println("Inserisci i secondi di conversazione: ");
                 secondi = in.nextInt();
                 s1.IserisciTelefonata(numeroChiamato, secondi);
+            } else if (scelta == 3) {
+                System.out.println("\nELENCO CHIAMATE:");
+                s1.ElencoChamate();
+                System.out.println("\n");
+            } else if (scelta == 4) {
+                System.out.println("\nInserisci il numero da cercare: ");
+                numeroChiamato = in.nextLine();
+                System.out.println("\nElenco chiamate al numero: " + numeroChiamato);
+                s1.ElencoChamate(numeroChiamato);
+                System.out.println("\n");
             } else if (scelta == 0) {
                 System.out.println("Chiusura programma");
             } else {
