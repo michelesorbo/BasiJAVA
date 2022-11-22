@@ -76,3 +76,11 @@ Esercizio 8:
 Scrivi un programma che simuli il lancio di un dado e di una moneta stampandone il risultato;
 con l'utilizzo di una classe astratta che rappresenti i comportamenti comuni degli
 oggetti dado e moneta istanziati.
+Creare un metodo compare per vedere chi vince
+    d1 = 4
+    d2 = 6
+    d1.Compara(d2) Restiruisce d2 ha vinto
+
+    M1 = testa
+    chiedere all'utente di scegliere testa o croce
+    se m1 è uguale alla scelta l'utente ha vinto
