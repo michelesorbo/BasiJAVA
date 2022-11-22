@@ -42,6 +42,8 @@ public class Sim {
     }
 
     public void ElencoChamate(){
+        int totminuti = 0;
+        int totchiamate = 0;
         file = this.checkFile(); //Controllo se il file esiste
         try {
             FileReader fr = new FileReader(file);
@@ -50,13 +52,20 @@ public class Sim {
             while (FileScanner.hasNextLine()){
                 String data = FileScanner.nextLine();
                 System.out.println(data);
+                String[] appoggio = data.split(" ");
+                totminuti += Integer.parseInt(appoggio[2]);
+                totchiamate++;
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Totale minuti di conversazione: " + totminuti);
+        System.out.println("Hai effettuato " + totchiamate + " chiamate");
     }
 
     public void ElencoChamate(String numeroDaCercare){
+        int totminuti = 0;
+        int totchiamate = 0;
         file = this.checkFile(); //Controllo se il file esiste
         try {
             FileReader fr = new FileReader(file);
@@ -66,11 +75,16 @@ public class Sim {
                 String data = FileScanner.nextLine();
                 if(data.contains(numeroDaCercare)){
                     System.out.println(data);
+                    String[] appoggio = data.split(" ");
+                    totminuti += Integer.parseInt(appoggio[2]);
+                    totchiamate++;
                 }
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Totale minuti di conversazione: " + totminuti);
+        System.out.println("Hai effettuato " + totchiamate + " chiamate");
     }
 
     private File checkFile(){
