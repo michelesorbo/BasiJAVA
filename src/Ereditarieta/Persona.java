@@ -6,6 +6,7 @@ public class Persona {
     int eta;
     String cittaResidenza;
 
+
     Persona(String nome, String cognome, int eta, String cittaResidenza){
         this.nome = nome;
         this.cognome = cognome;
@@ -19,5 +20,11 @@ public class Persona {
 
     public void Saluto(){
         System.out.println("Ciao");
+    }
+
+    @Override
+    public String toString(){
+        String str = this.nome + " " + this.cognome;
+        return str;
     }
 }

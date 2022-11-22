@@ -71,3 +71,8 @@ automaticamente uno sconto del 20%
 Realizzare una classe ListaSpesa che chieda all'utente di inserire i prodotti
 acquistati e calcoli il totale della spesa applicando gli opportuni sconti se il
 cliente ha la tessera fedeltà.
+
+Esercizio 8:
+Scrivi un programma che simuli il lancio di un dado e di una moneta stampandone il risultato;
+con l'utilizzo di una classe astratta che rappresenti i comportamenti comuni degli
+oggetti dado e moneta istanziati.
