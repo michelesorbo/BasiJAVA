@@ -84,3 +84,18 @@ Creare un metodo compare per vedere chi vince
     M1 = testa
     chiedere all'utente di scegliere testa o croce
     se m1 è uguale alla scelta l'utente ha vinto
+
+
+Esercizio 9:
+Realizza una opportuna gerarchia di classi per modellare una collezione (C) identificata da un nome, da un luogo, da un insieme di opere d'arte e
+dalle informazioni relative al loro ingombro.
+Radice della gerarchia è la classe astratta operadarte (OD) contenente :
+— i campi protetti titolo artista
+— il costruttore
+— il metodo public abstract double printingombro() che restituisce l'ingombro dell'opera
+— il metodo public boolean equals(Object o) che verifica se due opere d'arte sono uguali ed altri metodi di interesse.
+La sottoclasse quadro (Q) ha due variabili aggiuntive:altezza e larghezza che identificano la misura del quadro.
+La sottoclasse scultura (S) ha 3 variabili aggiuntive altezza larghezza e profondità che identificano le misure della scultura.
+Implementare le due classi concretizzando il metodo ingombro().
+Realizzare poi, una classe collezione identificata da un nome e da un insieme di opere d'arte scrivere i seguenti metodi:
+inserire un opera d'arte, stampare la collezione , stampare l'occupazione di una data opera.
