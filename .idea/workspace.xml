@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd20841-fca5-40cf-9d06-c207a8d03e8b" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Esercizio09/Arte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Esercizio09/OpereDarte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Esercizio09/Quadro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Esercizio09/Scultura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Animale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Gazzella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Leone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Pesce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Preda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Predatore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfacce/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Base/ConnessioneDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Esercizi/Esercizi" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercizi/Esercizi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasiJAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasiJAVA.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +28,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HfRFWkhcWPZx2BHj6blrSXmHqF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Progetti Java/BasiJAVA&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Progetti Java/BasiJAVA",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/File" />
@@ -255,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669141221030</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="init">
+      <created>1669204216908</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669204216909</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +273,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
