@@ -3,6 +3,17 @@ package DataBaseComandi;
 import java.sql.*;
 import java.util.Scanner;
  //Connessione e SELECT
+
+/*
+SELECT column1, column2, ...
+FROM table_name;
+
+
+--- Con condizione ---
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+ */
 public class ConnessioneDB {
     public static void main(String[] args) {
 
