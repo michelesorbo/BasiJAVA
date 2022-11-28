@@ -21,6 +21,8 @@ public class InsertDB {
 
             RICORDA i valori colonna vanno inseriti  senza '
              */
+            /*
+            //Query di inserimento con valori da tastiera
             System.out.println("Inserisci il nome della classe: ");
             classe = in.nextLine();
             System.out.println("Inserisci il piano");
@@ -28,8 +30,11 @@ public class InsertDB {
             String query = "INSERT INTO classi (nome, piano) VALUES('"+classe+"', '"+piano+"')";
             System.out.println(query);
             //String query = "INSERT INTO classi (nome) VALUES('2D')";
+             */
 
-            st.executeUpdate(query);
+            //Quando la Chiave primaria è un id autoincrementato devo passare il valore null
+            String query2 = "INSERT INTO squadre VALUES(null, 'Casertana', '1904', null, 'Serie D', 'Amatoriali')";
+            st.executeUpdate(query2);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
