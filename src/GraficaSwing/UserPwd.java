@@ -11,6 +11,8 @@ public class UserPwd extends JFrame{
     private JButton btnLogin;
     private JLabel okText;
 
+    private GestioneDB DB = new GestioneDB();
+
     public UserPwd(){
         setContentPane(UserPwd);
         setTitle("Login");
@@ -23,11 +25,16 @@ public class UserPwd extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 okText.setVisible(true);
-                if(email.getText().equals("michele") && pwd.getText().equals("1234")){
-                    okText.setText("Benvenuto " + email.getText());
+                if(DB.login(email.getText(),pwd.getText())){
+                    okText.setText("Benvenuto " + DB.getNome(email.getText()));
                 }else{
-                    okText.setText("Login Errata");
+                    okText.setText("Errore");
                 }
+//                if(email.getText().equals("michele") && pwd.getText().equals("1234")){
+//                    okText.setText("Benvenuto " + email.getText());
+//                }else{
+//                    okText.setText("Login Errata");
+//                }
             }
         });
     }

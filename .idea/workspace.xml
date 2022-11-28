@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd20841-fca5-40cf-9d06-c207a8d03e8b" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/GraficaSwing/UserPwd.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraficaSwing/UserPwd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/mainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/GestioneDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/GestioneDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/UserPwd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/UserPwd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669649625302</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="init">
+      <created>1669651359507</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669651359507</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
