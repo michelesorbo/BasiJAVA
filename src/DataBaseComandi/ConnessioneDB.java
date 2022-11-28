@@ -1,8 +1,8 @@
-package Base;
+package DataBaseComandi;
 
 import java.sql.*;
 import java.util.Scanner;
-
+ //Connessione e SELECT
 public class ConnessioneDB {
     public static void main(String[] args) {
 
