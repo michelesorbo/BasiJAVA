@@ -1,16 +1,21 @@
-package Base;
+package Esercizi;
 
 import java.sql.*;
 import java.util.Scanner;
 
-public class ConnessioneDB {
+/*
+  Data una squadra stampare a video i giocatori della squadra
+ */
+public class DBEsercizio01 {
+
     public static void main(String[] args) {
 
-        String serie_ricerca;
+        String squadra;
+        String id = "";
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Inserisci la serie e ti farò vedere le squadre:");
-        serie_ricerca = in.nextLine();
+        System.out.println("Inserisci la squadra e ti stampo i giocatori:");
+        squadra = in.nextLine();
 
         try {
             //Vado a creare la connessione con il DataBase inserendo l'url del database con in nome del bd da prendere in considerazione e inserisco user e password
@@ -19,16 +24,23 @@ public class ConnessioneDB {
             //Stabilire la connessione per poterci lavorare
             Statement statement = connection.createStatement();
 
-            String query = "SELECT * FROM squadre WHERE serie = '" + serie_ricerca + "'";
+            String query = "SELECT ID FROM squadre WHERE nome = '" + squadra + "'";
 
             //ResultSet serve a conservare i risultati di una query
             ResultSet result = statement.executeQuery(query);
 
             while (result.next()){
-                System.out.println("");
-                System.out.println(result.getString("nome"));
-                System.out.println(result.getString("citta"));
+                id = result.getString("ID");
             }
+
+            query = "SELECT * FROM calciatori WHERE squadra = " + id;
+
+            result = statement.executeQuery(query);
+
+            while (result.next()){
+                System.out.println(result.getString("nome") + " " + result.getString("cognome"));
+            }
+
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
