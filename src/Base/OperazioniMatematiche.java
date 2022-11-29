@@ -6,6 +6,11 @@ public class OperazioniMatematiche {
         return a+b;
     }
 
+    public String somma(String a, String b){
+
+        return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
+    }
+
     public double somma(double a, double b){
         return a+b;
     }
