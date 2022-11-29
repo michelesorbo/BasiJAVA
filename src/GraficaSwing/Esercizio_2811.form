@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GraficaSwing.Esercizio_2811">
+  <grid id="27dc6" binding="EsercizioPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="709" height="381"/>
+    </constraints>
+    <properties>
+      <background color="-14210787"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="83762" class="javax.swing.JButton" binding="divisione">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9361221"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Divisione"/>
+        </properties>
+      </component>
+      <component id="37d4e" class="javax.swing.JLabel" binding="risultato">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="18"/>
+          <foreground color="-12731631"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="Risultato"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="df5b5" class="javax.swing.JButton" binding="modulo">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9361221"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Modulo"/>
+        </properties>
+      </component>
+      <component id="86c3a" class="javax.swing.JTextField" binding="input2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1315345"/>
+          <font size="20"/>
+        </properties>
+      </component>
+      <component id="49d3d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14210787"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Numero"/>
+        </properties>
+      </component>
+      <component id="8763" class="javax.swing.JButton" binding="moltiplicazione">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9361221"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Moltiplicazione"/>
+        </properties>
+      </component>
+      <component id="ac836" class="javax.swing.JLabel" binding="LTitolo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="36" style="1"/>
+          <foreground color="-9361221"/>
+          <text value="Calcolatrice"/>
+        </properties>
+      </component>
+      <component id="db8b0" class="javax.swing.JTextField" binding="input1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1315345"/>
+          <font size="20"/>
+        </properties>
+      </component>
+      <component id="37530" class="javax.swing.JButton" binding="somma">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9361221"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Somma"/>
+        </properties>
+      </component>
+      <component id="1f84e" class="javax.swing.JButton" binding="sottrazione">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9361221"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Sottrazione"/>
+        </properties>
+      </component>
+      <component id="3d6f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14210787"/>
+          <font size="16"/>
+          <foreground color="-1315345"/>
+          <text value="Numero"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
