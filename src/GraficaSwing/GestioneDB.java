@@ -81,4 +81,18 @@ public class GestioneDB {
             throw new RuntimeException(e);
         }
     }
+
+    public String InsSquadra(String nome, String annoFondazione, String citta, String serie, String cat){
+        String msg;
+        try {
+            st.executeUpdate("INSERT INTO squadre VALUES (null, '"+nome+"', '"+annoFondazione+"', '"+citta+"', '"+serie+"', '"+cat+"')");
+            msg = "Squadra inserita con successo";
+        } catch (SQLException e) {
+            msg = "Errore critico";
+            throw new RuntimeException(e);
+        }
+
+        return msg;
+
+    }
 }

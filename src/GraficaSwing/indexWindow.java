@@ -7,11 +7,12 @@ import java.awt.event.ActionListener;
 public class indexWindow extends JFrame{
     private JButton calcolatriceButton;
     private JPanel main;
+    private JButton inserisciNuovaSquadraButton;
 
     public indexWindow() {
 
         setContentPane(main);
-        setSize(450,300);
+        setSize(550,400);
         setTitle("Finestra Principale");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
@@ -21,6 +22,12 @@ public class indexWindow extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 Calcolatrice calc = new Calcolatrice();
                 dispose(); //Chiude la finestra corrente
+            }
+        });
+        inserisciNuovaSquadraButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SquadraInsert sq = new SquadraInsert();
             }
         });
     }
