@@ -111,6 +111,7 @@
         </constraints>
         <properties>
           <foreground color="-1179665"/>
+          <icon value="sun/tools/jconsole/resources/brandlogo.png"/>
           <text value="Inserisci"/>
         </properties>
       </component>

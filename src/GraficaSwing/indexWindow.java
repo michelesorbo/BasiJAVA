@@ -8,6 +8,7 @@ public class indexWindow extends JFrame{
     private JButton calcolatriceButton;
     private JPanel main;
     private JButton inserisciNuovaSquadraButton;
+    private JButton ricercaGiocatoreButton;
 
     public indexWindow() {
 
@@ -28,6 +29,12 @@ public class indexWindow extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 SquadraInsert sq = new SquadraInsert();
+            }
+        });
+        ricercaGiocatoreButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ricercaGiocatore rg = new ricercaGiocatore();
             }
         });
     }

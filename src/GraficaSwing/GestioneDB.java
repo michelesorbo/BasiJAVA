@@ -4,8 +4,14 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.*;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 
 public class GestioneDB {
+
+    DateTimeFormatter itDateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    LocalDate data;
     private Connection conn;
     private Statement st;
 
@@ -94,5 +100,32 @@ public class GestioneDB {
 
         return msg;
 
+    }
+
+    public String CercaGiocatore(String cognome){
+        String msg = "Giocatore non presente";
+        try {
+            ResultSet rs = st.executeQuery("SELECT calciatori.nome, calciatori.cognome, calciatori.dataNascita, squadre.nome, squadre.serie " +
+                    "FROM calciatori INNER JOIN squadre ON calciatori.squadra = squadre.ID " +
+                    "WHERE calciatori.cognome LIKE '%"+cognome+"%'");
+
+            while (rs.next()){
+                if(msg.equals("Giocatore non presente")){
+                    msg = "";
+                }
+                msg += "Nome: " + rs.getString("calciatori.nome") + "\n";
+                msg += "Cognome: " + rs.getString("calciatori.cognome") + "\n";
+                data = LocalDate.parse(rs.getString("calciatori.dataNascita"));
+                msg += "Data di Nascita: " + data.format(itDateFormat) + "\n";
+                //msg += "Data di Nascita: " + rs.getString("calciatori.dataNascita") + "\n";
+                msg += "Squadra: " + rs.getString("squadre.nome") + "\n";
+                msg += "Serie: " + rs.getString("squadre.serie") + "\n";
+                msg += "\n\n";
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return msg;
     }
 }

@@ -1,0 +1,23 @@
+Gestione di un campo da tennis
+Testo:
+Fare una classe Prenotazione (di un campo da tennis) contenente il nome del cliente e l'ora della sua prenotazione.
+Implementare una classe Campo in cui ci sono i seguenti metodi:
+    - public boolean addPren(int inizio, int fine, String GiocatorePrenota, String Sfidante),
+    per prenotare il campo (controlla se i dati inseriti sono giusti e se il campo è disponibile dopodichè salva la prenotazione
+    e restituisce true se il campo è stato prenotato);
+    - public boolean removePren (int inizio, int fine, String unNomeCliente), per cancellare una prenotazione
+    (controlla se il campo è stato prenotato dal cliente che vuole cancellare la prenotazione dopodichè la cancella e
+    restituisce true se la prenotazione è stata cancellata);
+    - public String toString();
+
+Implementare la classe Giocatore:
+Voglio sapere il nome, cognome, data di nascita e livello del giocatore(Amatoriale, dilettante, professionista, esperto)
+   - Public toString()
+   - public StoricoPartite(): ritorna il numero di partite giocate con le percentuali di vittorie e sconfitte
+Consigli:
+Nello sviluppo di alcuni metodi, si consiglia il seguente procedimento:
+    - addPren (int inizio, int fine, String unNomeCliente): creare un
+                metodo ausiliario che individua se il campo da gioco è disponibile.
+    - removePren (int inizio, int fine, String unNomeCliente): anche in
+                questo caso s’invita ad utilizzare un metodo ausiliario per
+                verificare se esiste la prenotazione da disdire.

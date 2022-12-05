@@ -15,6 +15,8 @@ public class SquadraInsert extends JFrame {
     private JButton chiudiButton;
     private JLabel msg;
 
+
+
     public SquadraInsert(){
         setContentPane(main);
         setSize(550,400);
