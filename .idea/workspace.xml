@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd20841-fca5-40cf-9d06-c207a8d03e8b" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/GraficaSwing/ricercaGiocatore.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraficaSwing/ricercaGiocatore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrenotaCampoTennis/Traccia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icon/3558118_car_delivery_food_kitchen_mobile_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Icon/car_delivery_food_kitchen_mobile_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/GestioneDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/GestioneDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/SquadraInsert.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/SquadraInsert.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/SquadraInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/SquadraInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/indexWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/indexWindow.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraficaSwing/indexWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraficaSwing/indexWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +57,7 @@
       <recent name="$PROJECT_DIR$/Icon" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Calcolatrice">
     <configuration name="Calcolatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraficaSwing.Calcolatrice" />
       <module name="BasiJAVA" />
@@ -151,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668674050309</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <created>1668760674371</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668760674371</updated>
     </task>
     <task id="LOCAL-00004" summary="init">
       <created>1668762362289</created>
@@ -495,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669827809013</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="init">
+      <created>1670247037550</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1670247037550</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
