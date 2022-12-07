@@ -1,0 +1,48 @@
+/*Dare le regole al tag */
+body{
+    background: #2E326E; /*Serve per dare il colore allo sfondo del tag */
+    color: white; /*Serve a dare il colore del testo */
+}
+
+p{
+    color: red;
+}
+
+/* Dare le regole con l'attributo class */
+.par{
+    font-size: 20px;
+    color: #526E03;
+    background: #6E2419;
+}
+
+.pulsante{
+    width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+
+.pulsante:hover{
+    background-color: #45a049;
+}
+
+/*Dare le regole con l'attributo ID */
+#nome_id{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#cognome_id{
+    width: 80%;
+    border: 5px solid #6E2419;
+    border-radius: 10px;
+}
