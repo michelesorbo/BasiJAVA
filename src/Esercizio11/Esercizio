@@ -1,0 +1,5 @@
+Esercizio che permette di realizzare un convertitore di temperature Java tra le scale Celsius, Kelvin e Fahrenheit.
+Interfaccia Swing.
+Controlli JLabel, JTable, JTextField, JComboBox,JButton, JPane. Finestre di dialogo e controllo di validità dell’input che permette di inserire
+esclusivamente valori di temperatura compresi: tra -999.99 e 999.99 nel caso di scala Celsius, tra -1272.99 e 1272.99
+nel caso di scala Kelvin e tra -1830.99 e 1830.99 nel caso di scala Fahrenheit
