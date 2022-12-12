@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd20841-fca5-40cf-9d06-c207a8d03e8b" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Esercizio11/TabellaConversioneTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Esercizio11/tabCon.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Esercizio11/tabCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Esercizio12/Eser2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Esercizio12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Esercizio12/Paziente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Esercizio12/Soccorso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biblioteca/Traccia" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <recent name="$PROJECT_DIR$/Icon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calcolatrice">
+  <component name="RunManager">
     <configuration name="Calcolatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraficaSwing.Calcolatrice" />
       <module name="BasiJAVA" />
@@ -147,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668674050309</updated>
-    </task>
-    <task id="LOCAL-00009" summary="init">
-      <created>1668790460109</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668790460109</updated>
     </task>
     <task id="LOCAL-00010" summary="init">
       <created>1668848655192</created>
@@ -491,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670679556446</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="init">
+      <created>1670833930062</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1670833930062</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
